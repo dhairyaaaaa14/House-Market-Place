@@ -32,6 +32,7 @@ const Explore = () => {
           </Link>
         </div>
       </main>
+      <div className="spacer"></div>
     </div>
   );
 };

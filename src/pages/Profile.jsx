@@ -123,7 +123,7 @@ console.log(listings)
   return (
     <div className="profile">
       <header className="profile">
-        <div className="profilehHeader">
+        <div className="profileHeader">
           <p className="pageHeader">My Profile</p>
           <button type="button" className="logOut" onClick={onLogout}>
             Logout

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
 	box-sizing: border-box;
+	padding: 0px;
 }
 
 html::-webkit-scrollbar {
@@ -20,6 +21,10 @@ a {
 	color: #000000;
 }
 
+.spacer{
+	margin-bottom: 110px;
+	visibility:hidden;
+}
 button {
 	outline: none;
 	border: none;
@@ -342,7 +347,7 @@ button {
 .swiperSlideText {
 	color: #ffffff;
 	position: absolute;
-	top: 70px;
+	top: 120px;
 	left: 0;
 	font-weight: 600;
 	max-width: 90%;
@@ -359,7 +364,7 @@ button {
 .swiperSlidePrice {
 	color: #000000;
 	position: absolute;
-	top: 143px;
+	top: 170px;
 	left: 11px;
 	font-weight: 600;
 	max-width: 90%;
@@ -393,6 +398,8 @@ button {
 .exploreCategoryName {
 	font-weight: 500;
 	text-align: left;
+	
+
 }
 
 .category {
